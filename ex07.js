@@ -22,3 +22,11 @@
 // boostedAddition([4, 4, 6, 8, 10, 12]);
 
 //  écrire votre code sous ce commentaire
+function boostedAddition([nb]) {
+    for (nb == 0 ; nb <= 10000 ; nb++ ){
+        return nb + nb;
+    }
+    
+}
+console.log(boostedAddition([4, 5, 6]));
+console.log(boostedAddition([4, 4, 6, 8, 10, 12]));
