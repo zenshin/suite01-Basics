@@ -17,4 +17,21 @@
         - une fonction "isAdult" pour tester si la personne est majeur;
 
 */
+function isAdult(age) {
+    if (age >= 18) {
+        return "oui";
+    }
+    else {
+        return "non";
+    }
+}
 
+function getPerson(firstName, lastName, age) {
+    var o = {
+        fullName: firstName + " " + lastName
+        , age: age
+        , majorité: isAdult(age)
+    };
+    return o;
+}
+console.log(getPerson("toto", "tata", 45));
