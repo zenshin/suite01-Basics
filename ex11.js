@@ -36,7 +36,7 @@
 //     ["prune", "banane", "pamplemousse", "ananas"]
 // ]);
 //  écrire votre code sous ce commentaire
-fonction shoppingList(basket) {
+/*function shoppingList(basket) {
     var basket = [prodName, count];
     for (i = 0; i < basket.length, i++) {}
     return basket;
@@ -47,4 +47,4 @@ console.log(shoppingList([
         , ["orange", "orange", "orange", "orange"]
         , ["orange", "orange", "kiwi", "kiwi"]
         , ["prune", "banane", "pamplemousse", "ananas"]
-    ]);
+    ]);*/
