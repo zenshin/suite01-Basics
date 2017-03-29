@@ -11,17 +11,12 @@
     Utilisez la fonction console.log
     pour afficher la valeur de retour de la fonction;
 */
-
 /*      Test 1
     Appel à la fonction "retParam",
     prenant en paramètre le nombre 5;
 */
-
 // retParam(5);
-
 //  écrire votre code sous ce commentaire
-
 function retParam(nb) {
     return nb;
 }
-console.log(retParam(5));

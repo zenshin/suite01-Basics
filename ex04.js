@@ -6,32 +6,24 @@
         - 0 si le nombre est impair
 
 */
-
 /*      Test 1
     Appel à la fonction "isEven",
     prenant en paramètre le nombre 6,
     et nous attendons comme résultat 1;
 */
-
 //isEven(6);
-
 /*      Test 2
     Appel à la fonction "isEven",
     prenant en paramètre le nombre 5,
     et nous attendons comme résultat 0;
 */
-
 // isEven(5);
-
 //  écrire votre code sous ce commentaire
-
 function isEven(nb) {
     if (nb % 2 === 0) {
-         return 1;
+        return 1;
     }
-    else if (nb % 2 === 1){
-         return 0;
-    }    
+    else if (nb % 2 === 1) {
+        return 0;
+    }
 }
-console.log(isEven(6));
-console.log(isEven(5));

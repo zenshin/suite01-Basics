@@ -9,7 +9,6 @@
         - comme valeur le nombre de fois qu'il à été rencontré
 
 */
-
 /*      Test 1
     Appel à la fonction "shoppingList",
     prenant en paramètre le tableau:
@@ -29,7 +28,6 @@
     Important -> l'ordre n'a aucune importance
 
 */
-
 // shoppingList([
 //     ["orange", "orange", "kiwi", "ananas"],
 //     ["kiwi", "ananas", "banane", "prune"],
@@ -37,5 +35,16 @@
 //     ["orange", "orange", "kiwi", "kiwi"],
 //     ["prune", "banane", "pamplemousse", "ananas"]
 // ]);
-
 //  écrire votre code sous ce commentaire
+fonction shoppingList(basket) {
+    var basket = [prodName, count];
+    for (i = 0; i < basket.length, i++) {}
+    return basket;
+}
+console.log(shoppingList([
+        ["orange", "orange", "kiwi", "ananas"]
+        , ["kiwi", "ananas", "banane", "prune"]
+        , ["orange", "orange", "orange", "orange"]
+        , ["orange", "orange", "kiwi", "kiwi"]
+        , ["prune", "banane", "pamplemousse", "ananas"]
+    ]);

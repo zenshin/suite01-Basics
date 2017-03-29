@@ -11,18 +11,13 @@
     Utilisez la fonction console.log
     pour afficher la valeur de retour de la fonction;
 */
-
 /*
     Déclaration de la fonction "returnParameter",
     prenant un paramètre "nb",
     qui retourne ce paramètre "nb";
 */
-
 function returnParameter(nb) {
     return nb;
 }
 returnParameter(5);
-console.log(returnParameter(5))
-
 //  écrire votre code sous ce commentaire
-
