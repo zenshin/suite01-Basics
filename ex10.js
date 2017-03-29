@@ -34,4 +34,3 @@ function getPerson(firstName, lastName, age) {
     };
     return o;
 }
-console.log(getPerson("toto", "tata", 45));
